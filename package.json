@@ -24,6 +24,7 @@
     "@cloudflare/workers-types": "^2.2.2",
     "@cloudflare/wrangler": "^1.19.3",
     "@types/jest": "^27.0.1",
+    "itty-router": "^2.4.2",
     "jest": "^27.2.0",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.5",

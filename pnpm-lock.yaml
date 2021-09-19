@@ -4,6 +4,7 @@ specifiers:
   '@cloudflare/workers-types': ^2.2.2
   '@cloudflare/wrangler': ^1.19.3
   '@types/jest': ^27.0.1
+  itty-router: ^2.4.2
   jest: ^27.2.0
   rimraf: ^3.0.2
   ts-jest: ^27.0.5
@@ -16,6 +17,7 @@ dependencies:
   '@cloudflare/workers-types': 2.2.2
   '@cloudflare/wrangler': 1.19.3
   '@types/jest': 27.0.1
+  itty-router: 2.4.2
   jest: 27.2.0
   rimraf: 3.0.2
   ts-jest: 27.0.5_77a678c07bcdbdfd88181ff63fe325b2
@@ -1768,6 +1770,10 @@ packages:
     dependencies:
       html-escaper: 2.0.2
       istanbul-lib-report: 3.0.0
+    dev: false
+
+  /itty-router/2.4.2:
+    resolution: {integrity: sha512-VCJPoGKYrCoFSGQ9kko5prt66SHVppde498kj9XkMuZVrLCaG6xSIMIz/qaqW/mWk34BJPYGzhvWMf6l8g/CnA==}
     dev: false
 
   /jest-changed-files/27.1.1:
