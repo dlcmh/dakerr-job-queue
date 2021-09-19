@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "gp": "git add . && git commit -am 'feature' && git push",
     "test": "jest --verbose"
   },
   "repository": {
