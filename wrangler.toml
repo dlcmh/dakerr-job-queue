@@ -1,0 +1,12 @@
+name = "dakerr-job-queue"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2021-09-19"
+
+[build]
+command = "pnpm install && pnpm build"
+[build.upload]
+format = "service-worker"
