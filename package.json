@@ -7,7 +7,6 @@
     "build": "webpack",
     "dev": "wrangler dev",
     "gp": "git add . && git commit -am 'feature' && git push",
-    "publish": "wrangler publish",
     "test": "jest --verbose"
   },
   "repository": {
