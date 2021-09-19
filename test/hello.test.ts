@@ -1,4 +1,4 @@
-import { hello } from 'hello';
+import { hello } from 'hello'
 // import { handleRequest } from '../src/handler'
 // import makeServiceWorkerEnv from 'service-worker-mock'
 
@@ -12,10 +12,10 @@ describe('handle', () => {
 
   test('handle GET', async () => {
     // const result = await handleRequest(new Request("/", { method: "GET" }));
-    const result = hello();
+    const result = hello()
     // expect(result.status).toEqual(200);
     // const text = await result.text();
     // expect(text).toEqual("request method: GET");
-    expect(result).toEqual('hello');
-  });
-});
+    expect(result).toEqual('hello')
+  })
+})
