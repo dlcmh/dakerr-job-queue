@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/dlcmh/dakerr-job-queue#readme",
   "dependencies": {
+    "@cloudflare/workers-types": "^2.2.2",
     "@types/jest": "^27.0.1",
     "jest": "^27.2.0",
     "ts-jest": "^27.0.5",
