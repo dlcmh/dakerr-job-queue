@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "wrangler dev",
+    "push": "wrangler publish",
     "gp": "git add . && git commit -am 'feature' && git push",
     "test": "jest --verbose"
   },
